@@ -1,0 +1,55 @@
+.cardh1{
+  color: white;
+}
+
+.cardtxt1{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  color: white;
+}
+
+.cardimg1{
+  border-radius: 25px 25px 0px 0px;
+  width: 300px;
+  height: 200px;
+}
+
+
+.card{
+  border-radius: 25px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #46351D;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px #000000;
+}/*# sourceMappingURL=style.css.map */ 
+
+
+@media only screen and (max-width:700px){
+  .cardimg1 {
+    width: 200px;
+    
+  }  
+  .card {
+    width: 200px;
+
+  }
+  .cardh1{
+    width:500px;
+  }
+
+  .cardtxt1{
+    position: center;
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin-left: 30px;
+    margin-top: -43px;
+  }
+}
+
+
+
+
